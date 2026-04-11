@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Team Bio</title>
+    <title>Team Force</title>
     <link rel="stylesheet" href="styles.css"> <!-- Link to external CSS file -->
 </head>
 <body>
 
 <header>
-    <h1>Meet Our Team</h1>
+    <h1> ⚡ Team Force</h1>
     <!-- Example team logo -->
     <img src="img/team-logo.png" alt="Team Logo" class="team-logo">
 
@@ -23,30 +23,68 @@
 <!-- Team bios section (default section) -->
 <div id="bios" class="container">
     <!-- Each card represents an individual team member -->
+
     <div class="card">
-        <h2>John Doe</h2>
-        <p>Frontend Developer</p>
-        <button onclick="toggleBio('bio1')">Show Bio</button>
-        <p id="bio1" class="bio">John is a skilled frontend developer with 5 years of experience in creating responsive web applications.</p>
+    <img src="img/hanson.jpg" alt="Hanson Photo" style="width:80px; height:80px; border-radius:50%; object-fit:cover;">
+    <h2>Hanson Hanson</h2>
+    <p>Full Stack Developer</p>
+    <button onclick="toggleBio('bio1')">Show Bio</button>
+    <div id="bio1" class="bio">
+        <p>I'm a senior CS student with a passion for all things tech — from frontend design to backend systems.
+        My biggest goal is to one day build my own networking system from the ground up.
+        When I'm not busy with school or work, you can find me on the basketball court, at the gym, or playing video games.</p>
+
+        <!-- Moodboard -->
+        <p><strong> Moodboard</strong></p>
+        <ul style="text-align: left;">
+            <li> Interests: Web Dev, AI, Cybersecurity/IT, Networking</li>
+            <li> Sports: Basketball</li>
+            <li> Dream Project: Build my own networking system</li>
+            <li><a href="https://github.com/hhanson2" target="_blank">My GitHub</a></li>
+        </ul>
     </div>
+</div>
+
+    <!-- Person 2 card -->
     <div class="card">
-        <h2>Jane Smith</h2>
-        <p>Backend Developer</p>
+        <img src="img/person2.jpg" alt="Person 2 Photo" style="width:80px; height:80px; border-radius:50%; object-fit:cover;">
+        <h2>Person 2 Name</h2>
+        <p>Their Role</p>
         <button onclick="toggleBio('bio2')">Show Bio</button>
-        <p id="bio2" class="bio">Jane is a backend developer specializing in server-side logic and database management.</p>
+        <div id="bio2" class="bio">
+            <p>Person 2 bio here.</p>
+            <p><strong>Moodboard:</strong></p>
+            <a href="https://github.com/" target="_blank">Their GitHub</a>
+        </div>
     </div>
+
+    <!-- Person 3 card -->
     <div class="card">
-        <h2>Emily Johnson</h2>
-        <p>UI/UX Designer</p>
+        <img src="img/person3.jpg" alt="Person 3 Photo" style="width:80px; height:80px; border-radius:50%; object-fit:cover;">
+        <h2>Person 3 Name</h2>
+        <p>Their Role</p>
         <button onclick="toggleBio('bio3')">Show Bio</button>
-        <p id="bio3" class="bio">Emily is a UI/UX designer with a passion for creating user-friendly interfaces.</p>
+        <div id="bio3" class="bio">
+            <p>Person 3 bio here.</p>
+            <p><strong>Moodboard:</strong></p>
+            <a href="https://github.com/" target="_blank">Their GitHub</a>
+        </div>
     </div>
 </div>
 
 <!-- Team vision/mission statement section (hidden by default) -->
 <div id="vision" class="container" style="display: none;">
-    <h2>Our Mission Statement</h2>
-    <p>We strive to create a collaborative, inclusive, and innovative environment where team members feel empowered to push boundaries and achieve excellence in their craft. Our mission is to deliver high-quality solutions that meet and exceed our clients' expectations.</p>
+    <div class="card" style="flex: 1 1 100%;">
+        <h2>Our Mission</h2>
+        <p>Team Force is committed to building innovative solutions through collaboration, creativity, and programming. We push boundaries, support each other, and deliver work we're proud of.</p>
+        <h2>Team Rules</h2>
+        <ul style="text-align: left; color: #a0b4cc;">
+            <li>Communicate openly and respect each other's ideas</li>
+            <li>Meet deadlines and give early notice if you can't</li>
+            <li>Review each other's code before merging</li>
+            <li>Ask for help — no one works alone</li>
+        </ul>
+    </div>
 </div>
 
 <script src="script.js"></script> <!-- Link to external JavaScript file -->
