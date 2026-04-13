@@ -101,3 +101,9 @@ button {
 button:hover {
     background: #0088cc;
 }
+
+
+.sam-moodboard {
+    box-shadow: 0 0 0 5px lightgray;
+    outline: dashed 5px #00aaff;
+}
